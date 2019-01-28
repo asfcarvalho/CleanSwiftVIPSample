@@ -13,7 +13,6 @@
 		C419854C21ECB00A00A60B55 /* CleanSwiftVIPSample.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C419854A21ECB00A00A60B55 /* CleanSwiftVIPSample.xcdatamodeld */; };
 		C419854E21ECB00C00A60B55 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C419854D21ECB00C00A60B55 /* Assets.xcassets */; };
 		C419855121ECB00C00A60B55 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C419854F21ECB00C00A60B55 /* LaunchScreen.storyboard */; };
-		C419855C21ECB00C00A60B55 /* CleanSwiftVIPSampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C419855B21ECB00C00A60B55 /* CleanSwiftVIPSampleTests.swift */; };
 		C419856721ECB00C00A60B55 /* CleanSwiftVIPSampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C419856621ECB00C00A60B55 /* CleanSwiftVIPSampleUITests.swift */; };
 		C419857821ECB5F000A60B55 /* UIView+anchors.swift in Sources */ = {isa = PBXBuildFile; fileRef = C419857721ECB5EF00A60B55 /* UIView+anchors.swift */; };
 		C419857B21ECB77100A60B55 /* ProtocolViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C419857A21ECB77100A60B55 /* ProtocolViewController.swift */; };
@@ -31,6 +30,9 @@
 		C41985A121ECFD3F00A60B55 /* DetailRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C41985A021ECFD3F00A60B55 /* DetailRouter.swift */; };
 		C41985A421ECFEF300A60B55 /* DetailInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = C41985A321ECFEF300A60B55 /* DetailInteractor.swift */; };
 		C41985A721ED011300A60B55 /* DetailPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C41985A621ED011300A60B55 /* DetailPresenter.swift */; };
+		C457D46D21FF7E7E00DB115E /* FamousPresenterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C457D46C21FF7E7E00DB115E /* FamousPresenterTests.swift */; };
+		C4F4E27021F271D300409E40 /* FamousInteractorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4F4E26F21F271D300409E40 /* FamousInteractorTests.swift */; };
+		C4F4E27221F2747300409E40 /* MockWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4F4E27121F2747300409E40 /* MockWorker.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,7 +62,6 @@
 		C419855021ECB00C00A60B55 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C419855221ECB00C00A60B55 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C419855721ECB00C00A60B55 /* CleanSwiftVIPSampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CleanSwiftVIPSampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		C419855B21ECB00C00A60B55 /* CleanSwiftVIPSampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CleanSwiftVIPSampleTests.swift; sourceTree = "<group>"; };
 		C419855D21ECB00C00A60B55 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C419856221ECB00C00A60B55 /* CleanSwiftVIPSampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CleanSwiftVIPSampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C419856621ECB00C00A60B55 /* CleanSwiftVIPSampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CleanSwiftVIPSampleUITests.swift; sourceTree = "<group>"; };
@@ -81,6 +82,9 @@
 		C41985A021ECFD3F00A60B55 /* DetailRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailRouter.swift; sourceTree = "<group>"; };
 		C41985A321ECFEF300A60B55 /* DetailInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailInteractor.swift; sourceTree = "<group>"; };
 		C41985A621ED011300A60B55 /* DetailPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailPresenter.swift; sourceTree = "<group>"; };
+		C457D46C21FF7E7E00DB115E /* FamousPresenterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FamousPresenterTests.swift; sourceTree = "<group>"; };
+		C4F4E26F21F271D300409E40 /* FamousInteractorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FamousInteractorTests.swift; sourceTree = "<group>"; };
+		C4F4E27121F2747300409E40 /* MockWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockWorker.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -148,8 +152,9 @@
 		C419855A21ECB00C00A60B55 /* CleanSwiftVIPSampleTests */ = {
 			isa = PBXGroup;
 			children = (
-				C419855B21ECB00C00A60B55 /* CleanSwiftVIPSampleTests.swift */,
+				C457D46E21FF8E8200DB115E /* List */,
 				C419855D21ECB00C00A60B55 /* Info.plist */,
+				C4F4E27121F2747300409E40 /* MockWorker.swift */,
 			);
 			path = CleanSwiftVIPSampleTests;
 			sourceTree = "<group>";
@@ -304,6 +309,31 @@
 			path = Presenter;
 			sourceTree = "<group>";
 		};
+		C457D46B21FF7E5300DB115E /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				C457D46C21FF7E7E00DB115E /* FamousPresenterTests.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		C457D46E21FF8E8200DB115E /* List */ = {
+			isa = PBXGroup;
+			children = (
+				C457D46B21FF7E5300DB115E /* Presenter */,
+				C4F4E26E21F271A700409E40 /* Interactor */,
+			);
+			path = List;
+			sourceTree = "<group>";
+		};
+		C4F4E26E21F271A700409E40 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				C4F4E26F21F271D300409E40 /* FamousInteractorTests.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -375,6 +405,7 @@
 					};
 					C419855621ECB00C00A60B55 = {
 						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1010;
 						TestTargetID = C419853F21ECB00A00A60B55;
 					};
 					C419856121ECB00C00A60B55 = {
@@ -461,7 +492,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C419855C21ECB00C00A60B55 /* CleanSwiftVIPSampleTests.swift in Sources */,
+				C4F4E27021F271D300409E40 /* FamousInteractorTests.swift in Sources */,
+				C4F4E27221F2747300409E40 /* MockWorker.swift in Sources */,
+				C457D46D21FF7E7E00DB115E /* FamousPresenterTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -663,6 +696,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = CleanSwiftVIPSampleTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -672,6 +706,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.asfcarvalho.CleanSwiftVIPSampleTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CleanSwiftVIPSample.app/CleanSwiftVIPSample";
@@ -683,6 +718,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = CleanSwiftVIPSampleTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
